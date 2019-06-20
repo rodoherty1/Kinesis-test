@@ -1,0 +1,8 @@
+Type: AWS::Kinesis::Stream
+Properties:
+  Name: rodoherty1-kinesis-test
+  ShardCount: 1
+  Tags:
+      -
+        Key: name
+        Value: rodoherty1-kinesis-test
